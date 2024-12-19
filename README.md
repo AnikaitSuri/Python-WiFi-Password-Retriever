@@ -5,18 +5,18 @@ WiFi Password Retriever (Windows)
 This Python script retrieves a list of WiFi profiles stored on a Windows system and attempts to retrieve their passwords.
 
 Important Note:
-/nThis script requires administrative privileges to run.
-/nRetrieving WiFi passwords without permission is illegal. This script is intended for educational purposes only and should be used on authorized devices.
+This script requires administrative privileges to run.
+Retrieving WiFi passwords without permission is illegal. This script is intended for educational purposes only and should be used on authorized devices.
 
 Features:
-/nLists all WiFi profiles on the system.
-/nAttempts to retrieve the password for each profile.
-/nSaves details of profiles for which passwords couldn't be retrieved for further analysis (optional).
-/nOutputs results to the console and optionally saves them to a file.
+Lists all WiFi profiles on the system.
+Attempts to retrieve the password for each profile.
+Saves details of profiles for which passwords couldn't be retrieved for further analysis (optional).
+Outputs results to the console and optionally saves them to a file.
 
 Requirements:
-/nPython 3
-/nAdministrative privileges on the target system
+Python 3
+Administrative privileges on the target system
 
 Installation:
 Save the script as wifi_password_retriever.py.
