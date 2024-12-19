@@ -1,33 +1,42 @@
-# Python-WiFi-Password-Retriever
+#Python-WiFi-Password-Retriever
 
 WiFi Password Retriever (Windows)
 
 This Python script retrieves a list of WiFi profiles stored on a Windows system and attempts to retrieve their passwords.
 
-Important Note:
-This script requires administrative privileges to run.
-Retrieving WiFi passwords without permission is illegal. This script is intended for educational purposes only and should be used on authorized devices.
+Disclaimer.
 
-Features:
-Lists all WiFi profiles on the system.
-Attempts to retrieve the password for each profile.
-Saves details of profiles for which passwords couldn't be retrieved for further analysis (optional).
-Outputs results to the console and optionally saves them to a file.
+This script should only be used on devices you have proper authorization to access. Unauthorized access to Wi-Fi networks is illegal and unethical.
+This script is provided for educational and legitimate administrative purposes only. The author is not responsible for any misuse of this script.
 
-Requirements:
-Python 3
-Administrative privileges on the target system
+Features.
 
-Installation:
-Save the script as wifi_password_retriever.py.
-Open a command prompt or terminal and navigate to the directory where you saved the script.
-Run the script with python wifi_password_retriever.py.
+Retrieves a list of all WiFi profiles.
+Attempts to extract the password for each profile.
+Saves detailed information of profiles with unavailable passwords to a file for further investigation.
+Displays results in a user-friendly format on the console.
+Optionally saves the results to a file for record-keeping.
+Requirements.
 
-Usage:
-The script will automatically retrieve and display WiFi profiles and passwords. It will also create a file named "details.txt" to store details of profiles where passwords couldn't be retrieved.
+Python 3: Ensure Python 3 is installed on your system.
+Administrative Privileges: This script requires elevated privileges to interact with the system's network settings.
+Installation & Usage.
 
-Optional:
-The script can save the results to a file named "wifi_passwords.txt". This functionality is currently commented out (# Optionally save results to a file). You can uncomment the save_results_to_file(results) line in the main function to enable it.
+Save the script: Save the provided Python code as wifi_password_retriever.py.
+Open a terminal: Launch a command prompt or terminal with administrator rights.
+Navigate to the script's location: Use the cd command to navigate to the directory where you saved the script.
+Run the script: Execute the script by typing python wifi_password_retriever.py and pressing Enter.
+Output.
 
-Disclaimer:
-This script is provided for educational purposes only. The author is not responsible for any misuse of this script.
+The script will display a table of WiFi profiles and their corresponding passwords (if found).
+A file named "details.txt" will be created, containing detailed information about profiles for which passwords could not be retrieved.
+Optional: Saving Results.
+
+To save the retrieved information (profiles and passwords) to a file named "wifi_passwords.txt", uncomment the save_results_to_file(results) line within the main function of the script.
+Note.
+
+The success of password retrieval depends on the security settings of the respective WiFi networks.
+This script may not be able to retrieve passwords for all profiles due to various reasons, including strong security measures or system limitations.
+Contributing.
+
+Contributions and improvements are welcome. Please feel free to fork this repository and submit pull requests.
