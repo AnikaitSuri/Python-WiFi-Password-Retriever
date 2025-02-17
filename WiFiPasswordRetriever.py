@@ -1,4 +1,5 @@
 import subprocess
+import numpy
 
 def get_wifi_profiles():
     """Retrieve a list of WiFi profiles stored on the system."""
